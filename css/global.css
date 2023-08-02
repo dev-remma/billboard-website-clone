@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Aileron", Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #000000
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+}
+
+a {
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    text-decoration: inherit;
+}
+
+img {
+    -webkit-user-drag: none;
+    border-style: solid;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+img, svg, video, canvas, audio, iframe, embed, object {
+    display: block;
+}
+
+button {
+    display: block;
+    background-color: transparent;
+    background-image: none;
+    text-transform: none;
+}
+
+button, input, optgroup, select, textarea {
+    border: none;
+    margin: 0;
+    padding: 0px;
+    line-height: inherit;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+    appearance: button;
+}
+
+button, [role="button"] {
+    cursor: pointer;
+}
+
+svg {
+    fill: currentColor;
+}
+
+#i {
+    display: none;
+}
+
+
+/* //// */
+.unstyle-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* // */
+.black-bg {
+    background-color: #000000;
+    color: white;
+}
+
+.lightest-gray-bg {
+    background-color: #efefef;
+    overflow: hidden;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.b-size {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+@media(min-width: 1024px) {
+    .b-size {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    }
+}
+
+
+
+
